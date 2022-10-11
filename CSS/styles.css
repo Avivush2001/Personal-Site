@@ -1,0 +1,116 @@
+/****************************TAG SELECTORS**************************/
+body {
+  margin: 0;
+  font-family: 'Aref Ruqaa Ink', serif;
+  text-align: center;
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  line-height: 2;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+hr {
+  border-style: none;
+  border-top-style:dotted;
+  border-radius: 0;
+  border-width: 10px;
+  width: 7%;
+}
+div {
+  padding: 50px 0 50px 0;
+}
+/****************************ClASS SELECTORS**************************/
+.top-container {
+  background-color: #C3F8FF;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: 0;
+  border-width: 0;
+
+  position: relative;
+
+}
+.center-container {
+  background-color: #ABD9FF;
+  margin: 0;
+  border-width: 0;
+  padding: 10px;
+}
+.bottom-container {
+  background-color: #FFF6BF;
+  margin: 0;
+  border-width: 0;
+  padding: 10px;
+}
+.blue-h {
+  color: #66BFBF;
+}
+.blue-h2 {
+  color: #002E94;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  padding: 0;
+  text-align: left;
+  line-height: 2;
+}
+.skill-image {
+  border-radius: 100%;
+  margin: 0 auto 0 auto;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.btn {
+  background: #FFF6BF;
+  background-image: -webkit-linear-gradient(top, #FFF6BF, #FFF6BF);
+  background-image: -moz-linear-gradient(top, #FFF6BF, #FFF6BF);
+  background-image: -ms-linear-gradient(top, #FFF6BF, #FFF6BF);
+  background-image: -o-linear-gradient(top, #FFF6BF, #FFF6BF);
+  background-image: linear-gradient(to bottom, #FFF6BF, #FFF6BF);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+/****************************ID SELECTORS**************************/
+#top-cloud {
+  position: absolute;
+  top: 25px;
+  right: 30%;
+}
+#bot-cloud {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+}
+#plane {
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+#personal-image {
+  border-radius: 30%;
+  width: 20%;
+}
